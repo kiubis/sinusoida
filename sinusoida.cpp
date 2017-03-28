@@ -67,10 +67,11 @@ void sinus(){
 			}
 			cout << endl;
 		}	
+		delete kropka;
 }
 
 int zaokraglanie(float fDol, float fGora, int iPrzedzial, float fWejscie){
-	float fKrok=0, fTest=0, fZaok;
+	float fTest=0, fZaok;
 	int iZaok=0;
 	
 	fZaok=fWejscie-fDol;
